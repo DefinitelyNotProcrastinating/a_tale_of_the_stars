@@ -1,2 +1,4 @@
-# a_tale_of_the_stars
-繁星物语 主Repo
+# 繁星物语
+
+繁星物语
+此角色卡完全基于SAM系统运行。
