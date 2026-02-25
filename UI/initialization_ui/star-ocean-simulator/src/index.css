@@ -1,0 +1,19 @@
+/* 引入 Tailwind v4 核心 */
+@import "tailwindcss";
+
+/* 自定义工具类：隐藏滚动条但保留滚动功能 */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;    /* Firefox */
+  }
+}
+
+/* 确保根节点撑满全屏，适配深色主题背景 */
+body {
+  background-color: #020617; /* slate-950 */
+  color: #cbd5e1; /* slate-300 */
+}
