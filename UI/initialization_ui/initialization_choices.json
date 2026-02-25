@@ -651,68 +651,7 @@
         ]
       }
     ]
-  },{
-  "scenarios": {
-    "_schema_example": {
-      "name": "string (开局背景名称)",
-      "description": "string (剧情引导文案与设定背景)",
-      "starting_wealth_bonus": "number (开局额外信用点奖励/惩罚)",
-      "reputation_modifiers": {
-        "faction_name": "number (开局时对指定势力的声望修正)"
-      }
-    },
-    "data": [
-      {
-        "name": "穿越者",
-        "description": "{{user}}转生到了一个荒芜星球，周围只有随身物品。现在，{{user}}必须想办法活下去。这次，{{user}}将不得不面对穿越到了‘未来世界’的现实。",
-        "starting_wealth_bonus": 0,
-        "reputation_modifiers": {}
-      },
-      {
-        "name": "帝国贵族",
-        "description": "身为帝国小贵族的爷爷给你留下了一个殖民星球，但这里不仅仅遭到杀戮机械入侵，工业也百废待兴。为了完成帝国的运营指标并及时交税，{{user}}必须努力了。",
-        "starting_wealth_bonus": 50000,
-        "reputation_modifiers": {
-          "七星帝国": 20
-        }
-      },
-      {
-        "name": "应届毕业生",
-        "description": "{{user}}是自己所属国家的新毕业生，未来的路很宽广，自由飞行员的生活从此开始。",
-        "starting_wealth_bonus": 10000,
-        "reputation_modifiers": {
-          "ICE星际交换集团": 10
-        }
-      },
-      {
-        "name": "失忆的战争兵器",
-        "description": "{{user}}在一个废弃的培养舱中醒来，周围是满地的研究员尸体与刺耳的警报。你的大脑中没有过去，只有深刻在肌肉记忆里的杀戮技巧，以及某个巨型企业发出的全星系通缉令。",
-        "starting_wealth_bonus": -5000,
-        "reputation_modifiers": {
-          "星座联邦": -50,
-          "ICE星际交换集团": -20
-        }
-      },
-      {
-        "name": "异星遗迹清道夫",
-        "description": "你是一名专门在“大撕裂”边缘捡垃圾的清道夫。在一次极度危险的深潜作业中，你的飞船抛锚了，但你也在遗迹的最深处触碰到了某个不属于这个维度的东西……",
-        "starting_wealth_bonus": 2000,
-        "reputation_modifiers": {
-          "艾特尼安遗民": 15
-        }
-      },
-      {
-        "name": "星海掠夺者",
-        "description": "做个好人赚不到钱，这是{{user}}早就明白的道理。作为一名新晋的星际海盗船长，你刚刚在一次火拼中夺取了控制权。你的船员渴望鲜血与掠夺，而几大文明的海军已经在猎杀你的路上。",
-        "starting_wealth_bonus": 30000,
-        "reputation_modifiers": {
-          "七星帝国": -40,
-          "罗莎莉亚骑士团": -60
-        }
-      }
-    ]
   },
-
   "skills": {
     "_schema_example": {
       "name": "string (技能名称)",
@@ -781,5 +720,4 @@
       }
     ]
   }
-}
 }
