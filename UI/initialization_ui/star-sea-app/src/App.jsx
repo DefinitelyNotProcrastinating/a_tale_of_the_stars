@@ -3,7 +3,7 @@ import Panel from './Panel';
 import { Search, Library, Box, Rocket, Zap, Globe, Map, ShoppingCart, Trash2, Send } from 'lucide-react';
 
 // 设定您的 Github / jsDelivr RAW URL (替换为您的实际地址)
-const DATA_URL = "https://raw.githubusercontent.com/YourName/YourRepo/main/star-sea-data.json";
+const DATA_URL = "https://github.com/DefinitelyNotProcrastinating/a_tale_of_the_stars/blob/46ee12b7911507a00cbed1af1e51c4dce35b4abb/UI/initialization_ui/initialization_choices.json";
 
 // RP 点数阶梯表
 const RP_COSTS = { 1: 30, 2: 60, 3: 90, 4: 120, 5: 150, 6: 180, 7: 420 };
