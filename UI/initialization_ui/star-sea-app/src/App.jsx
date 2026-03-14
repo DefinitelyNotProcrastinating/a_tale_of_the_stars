@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useMemo } from 'react';
 import yaml from 'js-yaml';
+import { Box, Globe, Library, Map, Rocket, Search, Send, ShoppingCart, Trash2, User, Zap } from 'lucide-react';
+import { useEffect, useMemo, useState } from 'react';
 import Panel from './Panel';
-import { Search, Library, Box, Rocket, Zap, Globe, Map, ShoppingCart, Trash2, Send, User } from 'lucide-react';
 
 // 设定您的远程 JSON 地址 (必须支持跨域，建议用 raw.githubusercontent 或是 jsdelivr)
 const DATA_URL = "https://cdn.jsdelivr.net/gh/DefinitelyNotProcrastinating/a_tale_of_the_stars@main/UI/initialization_ui/initialization_choices.json";
@@ -17,7 +17,8 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [tierFilter, setTierFilter] = useState('ALL');
   
-  const [totalRP, setTotalRP] = useState(1000);
+  // add underslash before setter to avoid eslint warning.
+  const [totalRP, _setTotalRP] = useState(1000);
   const[inventory, setInventory] = useState([]);
 
   // 基础档案状态
